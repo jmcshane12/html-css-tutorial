@@ -166,3 +166,22 @@ iframe {
     height:100%;
     border: dotted;
 }
+
+/*
+    Jimmy's code
+*/
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: orange;
+  }
+
+.flex-container > div {
+    background-color: grey;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
